@@ -1,0 +1,32 @@
+nav {
+  height: 10vh;
+  padding: 0 12%;
+  background: #232627;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.links {
+  font-size: 1.5rem;
+
+  h3 {
+    font-weight: 300;
+  }
+
+  h3:hover {
+    color: rgb(255, 175, 175);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 0 2rem;
+  }
+}

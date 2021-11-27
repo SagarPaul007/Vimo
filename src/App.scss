@@ -1,0 +1,9 @@
+.app {
+  min-height: 100vh;
+}
+
+// imports
+@import "./styles/navbar";
+@import "./styles/search";
+@import "./styles/movies";
+@import "./styles/about";

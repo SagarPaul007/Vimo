@@ -1,0 +1,48 @@
+.search {
+  margin: 5rem 10%;
+  color: #fff;
+  display: grid;
+  place-items: center;
+
+  label {
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #f85b5b;
+  }
+
+  .input {
+    width: 60rem;
+    font-size: 2rem;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+  }
+
+  .btn {
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #f85b5b;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .search form {
+    width: 100%;
+  }
+
+  .search .input {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search {
+    margin: 5rem 2rem;
+  }
+}

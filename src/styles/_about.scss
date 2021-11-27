@@ -1,0 +1,46 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+  img {
+    width: 400px;
+  }
+
+  .about-me {
+    padding-left: 2rem;
+    width: 40rem;
+
+    .logo {
+      display: inline-block;
+      background-color: rgb(179, 179, 179);
+      padding: 0.5rem 1rem;
+      color: black;
+    }
+
+    p {
+      margin: 1rem 0;
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    margin: 5rem 0;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about img {
+    width: 250px;
+  }
+
+  .about .about-me {
+    width: 90%;
+  }
+}
